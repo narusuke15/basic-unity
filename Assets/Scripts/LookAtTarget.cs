@@ -8,6 +8,7 @@ public class LookAtTarget : MonoBehaviour
 
     void Update()
     {
+        // ให้วัตถุมองไปที่ target
         transform.LookAt(target);
     }
 }
