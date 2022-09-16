@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+// scripts เอาไว้ให้วัตถุใดๆ เคลื่อนที่ในแกน x ไปพร้อม target
 public class MoveWithTarget : MonoBehaviour
 {
     public Transform target; // ประกาศตัวแปรเป็น public เพื่อเอาไว้เลือกวัตถุที่จะตามใน inspector

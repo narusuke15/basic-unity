@@ -1,5 +1,7 @@
-using UnityEngine;
+// ประกาศใช้ lib เพื่อเอาโค้ดที่คนอื่นเขียนไว้แล้วมาใช้
+using UnityEngine; // ประกาศยืมพลัง Unity มาใช้ ลองเอาออกจะพบว่า Error กระจาย
 
+// ประกาศ class โดยสืบทอดพลังมาจาก MonoBehaviour เพื่อใช้งาน class พิเศษอย่าง Start() Update() และอื่นๆ
 public class PlayerController : MonoBehaviour
 {
     // ประกาศตัวแปร
